@@ -1,2 +1,0 @@
-# portfolio
-สำหรับแสดงผลงานของ Lattaphon Kampaeng
