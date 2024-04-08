@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chatbot Javascript</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body style="background-color:black;">
+        <div class="glass">
+            <h1><p style="color:white">อยากรู้อะไรหรอครับ ที่รัก</p></h1>
+            <h2>ถามมาได้เลยค๊าบ เช่น วันเกิดของ? วันที่คบกัน? หนังเรืองแรกที่ไปดูด้วยกัน? เรื่องราวเริ่มแรก? ทำไมถึงทำเว็ปนี้ขึ้นมา?</h2>
+            <div class="input">
+                <input type="text"
+                       id="userBox"
+                       onkeydown="if(event.keyCode == 13){ talk()}"
+                       placeholder="ถามมาเลยค๊าบ" />
+            </div>
+            <div class="Asw">
+                <p id="chatLog">รอถามอยู่นะคะ คนเก่งของเค้า</p>
+            </div>
+            </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
